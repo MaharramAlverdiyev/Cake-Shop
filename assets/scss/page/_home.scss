@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+
+    .containerHeader {
+        display: flex;
+        width: 80rem;
+        justify-content: space-between;
+        align-items: center;
+        height: 8rem;
+        color: white;
+
+        .icons {
+            display: flex;
+            gap: 20px;
+            a {
+                color: white;
+            }
+            .fa-facebook {
+            &:hover {
+                color: #E5BF4A;
+                transition: 0.5s;
+                transform: rotateY(180deg);
+            }
+        }
+        .fa-instagram {
+            &:hover {
+                color: #E5BF4A;
+                transition: 0.5s;
+                transform: rotateY(180deg);
+            }
+        }
+        .fa-twitter {
+            &:hover {
+                color: #E5BF4A;
+                transition: 0.5s;
+                transform: rotateY(180deg);
+            }
+        }
+        }
+
+        .call {
+            a {
+                color: #E5BF4A;
+                border: 1px solid #E5BF4A;
+                display: inline-block;
+                padding: 11px 20px;
+                text-transform: capitalize;
+                font-size: 16px;
+                height: 3rem;
+                display: flex;
+                align-items: center;
+                
+
+                &:hover {
+                    transition: 0.5s;
+                    background-color: #E5BF4A;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    nav {
+        width: 30rem;
+
+        ul {
+            display: flex;
+            gap: 30px;
+
+            li {
+                a {
+                    font-family: "Jost", sans-serif;
+                    color: white;
+                    font-weight: 400;
+                    &:hover {
+                        color: #E5BF4A;
+                        transition: 0.5s;
+                       
+                    }
+                }
+            }
+        }
+    }
+   
+}
+
+main {
+    .firstSection {
+        background-image: url(https://preview.colorlib.com/theme/cakeshop/assets/img/hero/h1_hero1.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        height: 45rem;
+       
+        .containerFirstSection {
+            display: flex;
+            justify-content: end;
+            height: 30rem;
+            flex-direction: column;
+            width: 40rem;
+            align-items: center;
+        }
+
+        .first-h1 {
+            color: white;
+            font-size: 70px;
+            font-weight: 400;
+            margin-bottom: 41px;
+            color: #fff;
+            line-height: 1.2;
+            font-family: "Poiret One", 'cursive';
+        }
+         .orderBox {
+               width:26rem;
+            //    border:1px solid white;
+               display: flex;
+               justify-content: start;
+         
+        span {
+            width: 173px;
+            height: 60px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #E5BF4A;
+            border: 1px solid #2A2A2A;
+            color: #0A0A0A ;
+            font-size: 15px;
+            font-weight: 400;
+            text-transform: uppercase;
+            line-height: 15px;
+
+            &:hover {
+            color:#E5BF4A;
+            background-color: #0A0A0A;
+            border: 1px solid #E5BF4A;
+            transition: 0.5s;
+        }
+    }
+    }
+}
+
+.secondSection {
+    background-color: #0a0a0a;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    .menu {
+        display:flex;
+        gap: 30px;
+        justify-content: center;
+        width: auto;
+        .menu_img {
+            width: auto;
+            height: 327px;
+        }
+        .menu_price {
+            color: white;
+            margin: 20px;
+            font-family: "Poiret One", 'cursive';   
+    }
+}
+}
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    width:auto;
+    border: 1px solid black;
+    height: 18rem;
+    align-items: center;
+    background-color: #0a0a0a ;
+    // border: 1px solid gray;
+    .leftFooter {
+        width:35rem;
+        color: white;
+        background-color: #0A0A0A;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-family: "Poiret One", 'cursive';   
+        font-weight: 700;
+        line-height: 1.8;
+
+
+        .footerIcons {
+               display: flex;
+               gap: 30px;
+               text-align: center;
+               a {
+                color: white;
+               }
+               margin-top: 30px;
+            .iconsName {
+                border: 1px solid gray;
+                width: 8rem;
+                padding: 14px;
+                font-size: 13px;
+                font-family: "Jost", sans-serif;
+                font-weight: 500;
+                
+                
+                i {
+                    margin-right: 10px;
+                }
+            }
+
+             
+        
+        }
+    }
+    .centerFooter {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 8rem;
+       
+        
+        .text {
+            font-family: "Poiret One", cursive;
+            font-size: 24px;
+            color: #E5BF4A;
+        }
+        .locationIcon {
+            font-size: 30px;
+        }
+        .textLocation {
+            font-family: "Jost", sans-serif;
+            
+        }
+    }
+    .rightFooter {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 8rem;
+        .text {
+            font-family: "Poiret One", cursive;
+            font-size: 24px;
+            color: #E5BF4A;
+        }
+        .locationIcon {
+            font-size: 25px;
+        }
+        .textContact {
+            font-family: "Jost", sans-serif;
+            
+        }
+    }
+} 
+
+
+@media (max-width:992px) {
+header .containerHeader {
+     background-color: red;
+     width: auto;
+     display: flex;
+     justify-content: space-between;
+
+}
+header .containerHeader .call {
+    display: none;
+
+}
+main .firstSection .containerFirstSection {
+    width: auto;
+    flex-wrap: wrap;
+}
+
+main .secondSection .menu {
+    flex-wrap: wrap;
+}
+}

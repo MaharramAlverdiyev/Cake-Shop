@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+}
+header .containerHeader {
+  display: flex;
+  width: 80rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  color: white;
+}
+header .containerHeader .icons {
+  display: flex;
+  gap: 20px;
+}
+header .containerHeader .icons a {
+  color: white;
+}
+header .containerHeader .icons .fa-facebook:hover {
+  color: #E5BF4A;
+  transition: 0.5s;
+  transform: rotateY(180deg);
+}
+header .containerHeader .icons .fa-instagram:hover {
+  color: #E5BF4A;
+  transition: 0.5s;
+  transform: rotateY(180deg);
+}
+header .containerHeader .icons .fa-twitter:hover {
+  color: #E5BF4A;
+  transition: 0.5s;
+  transform: rotateY(180deg);
+}
+header .containerHeader .call a {
+  color: #E5BF4A;
+  border: 1px solid #E5BF4A;
+  display: inline-block;
+  padding: 11px 20px;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+header .containerHeader .call a:hover {
+  transition: 0.5s;
+  background-color: #E5BF4A;
+  color: white;
+}
+header nav {
+  width: 30rem;
+}
+header nav ul {
+  display: flex;
+  gap: 30px;
+}
+header nav ul li a {
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+header nav ul li a:hover {
+  color: #E5BF4A;
+  transition: 0.5s;
+}
+
+main .firstSection {
+  background-image: url(https://preview.colorlib.com/theme/cakeshop/assets/img/hero/h1_hero1.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 45rem;
+}
+main .firstSection .containerFirstSection {
+  display: flex;
+  justify-content: end;
+  height: 30rem;
+  flex-direction: column;
+  width: 40rem;
+  align-items: center;
+}
+main .firstSection .first-h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 41px;
+  color: #fff;
+  line-height: 1.2;
+  font-family: "Poiret One", "cursive";
+}
+main .firstSection .orderBox {
+  width: 26rem;
+  display: flex;
+  justify-content: start;
+}
+main .firstSection .orderBox span {
+  width: 173px;
+  height: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E5BF4A;
+  border: 1px solid #2A2A2A;
+  color: #0A0A0A;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+main .firstSection .orderBox span:hover {
+  color: #E5BF4A;
+  background-color: #0A0A0A;
+  border: 1px solid #E5BF4A;
+  transition: 0.5s;
+}
+main .secondSection {
+  background-color: #0a0a0a;
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+main .secondSection .menu {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: auto;
+}
+main .secondSection .menu .menu_img {
+  width: auto;
+  height: 327px;
+}
+main .secondSection .menu .menu_price {
+  color: white;
+  margin: 20px;
+  font-family: "Poiret One", "cursive";
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  border: 1px solid black;
+  height: 18rem;
+  align-items: center;
+  background-color: #0a0a0a;
+}
+footer .leftFooter {
+  width: 35rem;
+  color: white;
+  background-color: #0A0A0A;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: "Poiret One", "cursive";
+  font-weight: 700;
+  line-height: 1.8;
+}
+footer .leftFooter .footerIcons {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+footer .leftFooter .footerIcons a {
+  color: white;
+}
+footer .leftFooter .footerIcons .iconsName {
+  border: 1px solid gray;
+  width: 8rem;
+  padding: 14px;
+  font-size: 13px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+footer .leftFooter .footerIcons .iconsName i {
+  margin-right: 10px;
+}
+footer .centerFooter {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+}
+footer .centerFooter .text {
+  font-family: "Poiret One", cursive;
+  font-size: 24px;
+  color: #E5BF4A;
+}
+footer .centerFooter .locationIcon {
+  font-size: 30px;
+}
+footer .centerFooter .textLocation {
+  font-family: "Jost", sans-serif;
+}
+footer .rightFooter {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+}
+footer .rightFooter .text {
+  font-family: "Poiret One", cursive;
+  font-size: 24px;
+  color: #E5BF4A;
+}
+footer .rightFooter .locationIcon {
+  font-size: 25px;
+}
+footer .rightFooter .textContact {
+  font-family: "Jost", sans-serif;
+}
+
+@media (max-width: 992px) {
+  header .containerHeader {
+    background-color: red;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .containerHeader .call {
+    display: none;
+  }
+  .main .secondSection .menu .menu_img a {
+    flex-wrap: wrap;
+    width: 10px;
+  }
+}
